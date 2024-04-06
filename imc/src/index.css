@@ -1,0 +1,71 @@
+body {
+    background-color: rgb(236, 245, 237);
+    margin-top: 100px;
+}
+
+.container {
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 0px auto;
+    margin-top: 5px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+label {
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+button {
+    width: 100px;
+    margin-top: 25px;
+    padding: 7px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(118, 233, 156);
+    cursor: pointer;
+}
+
+button:hover {
+    color: #fff;
+    background-color: rgb(11, 46, 23);
+    transition: 0.5s;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 30%;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid rgb(22, 32, 26);
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+
+.table th {
+    background-color: rgb(118, 233, 156);
+}
+
+
